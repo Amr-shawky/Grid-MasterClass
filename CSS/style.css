@@ -1,0 +1,10 @@
+.container-fluid .d-grid{
+    display: grid;
+    grid-template-areas: "items1 items1 items2 items2";
+}
+.fs-50{
+    font-size: 50px !important;
+}
+.p-90{
+    padding: 110px !important;
+}
