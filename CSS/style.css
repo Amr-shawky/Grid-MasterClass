@@ -1,10 +1,49 @@
 .container-fluid .d-grid{
     display: grid;
-    grid-template-areas: "items1 items1 items2 items2";
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    grid-template-areas: 
+    "items1 items1 items2 items2"
+    "items3 items4 items4 items5"
+    "items6 items7 items7 items5"
+    "items8 items9 items10 items10";
 }
 .fs-50{
-    font-size: 50px !important;
+    font-size: 48px !important;
 }
-.p-90{
-    padding: 110px !important;
+.line-height-60{
+    line-height: 60px !important;
+}
+
+.fw-400{
+    font-weight: 400 !important;
+}
+.items1{
+    grid-area: items1;
+}
+.items2{
+    grid-area: items2;
+}
+.items3{
+    grid-area: items3;
+}
+.items4{
+    grid-area: items4;
+}
+.items5{
+    grid-area: items5;
+}
+.items6{
+    grid-area: items6;
+}
+.items7{
+    grid-area: items7;
+}
+.items8{
+    grid-area: items8;
+}
+.items9{
+    grid-area: items9;
+}
+.items10{
+    grid-area: items10;
 }
