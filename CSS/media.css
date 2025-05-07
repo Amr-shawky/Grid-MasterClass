@@ -1,0 +1,28 @@
+@media (min-width: 1200px) {
+    .px-xl-7 {
+      padding-left: 5rem !important; /* adjust as needed */
+      padding-right: 5rem !important; /* adjust as needed */
+    }
+  }
+@media (max-width: 991px) {
+    .container-fluid .d-grid {
+        grid-template-columns: 1fr 1fr 1fr 25%;
+        grid-template-rows: auto 1fr 1fr 1fr auto auto auto auto;
+        grid-template-areas: 
+        "items2 items2 items2 items2"
+        "items1 items1 items1 items1"
+        "items3 items3 items7 items7"
+        "items4 items4 items5 items5"
+        "items9 items9 items6 items6"
+        "items8 items8 items6 items6"
+        "items10 items10 items10 items10"
+        "items11 items11 items11 items11";
+    }
+    .items2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+
