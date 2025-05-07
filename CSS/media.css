@@ -16,13 +16,8 @@
         "items9 items9 items6 items6"
         "items8 items8 items6 items6"
         "items10 items10 items10 items10"
-        "items11 items11 items11 items11";
+        "items11 items11 items11 items11" ;
     }
-    .items2{
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+
 }
 
