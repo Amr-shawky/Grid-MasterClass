@@ -150,3 +150,10 @@
     width: 80%;
     max-width: 290px;
 }
+.bg-bluegreen{
+    background-color: #93b6b7;
+}
+.items7 img{
+    margin-left: -50px;
+    width: 320px !important;
+}
