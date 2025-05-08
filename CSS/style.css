@@ -118,10 +118,6 @@ h1 {
 .text-lightblue {
     color: #27b9c2;
 }
-.text-block-2 {
-    width: 80%;
-    max-width: 290px;
-}
 .circle {
     display: -webkit-box;
     display: -webkit-flex;
@@ -156,10 +152,6 @@ h1 {
 }
 .fs-8{
     font-size: 0.765rem !important;
-}
-.text-block-2 {
-    width: 80%;
-    max-width: 290px;
 }
 .bg-bluegreen{
     background-color: #93b6b7;
@@ -275,3 +267,9 @@ h3 {
 .div-block-9 {
     width: 33%;
 }
+
+.text-block-2 {
+    width: 80%;
+    max-width: 290px;
+}
+

@@ -17,6 +17,10 @@
 
         top: -77px;
     }
+    .text-block-2 {
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
 
 }
 
@@ -35,6 +39,14 @@
             "items11 items11 items11 items11";
     }
 
+    .items6 .text-block-2 {
+        padding-right: 11px !important;
+        padding-left: 11px !important;
+    }
+    .items6 .text-block-2 {
+        width: 85% !important;
+        max-width: 349px;
+    }
     .minicaps {
         width: 102px;
         position: absolute;
@@ -110,5 +122,17 @@
         width: 774px;
         height: 304px;
         margin-bottom: 4px;
+    }
+    .div-block-7 {
+        padding-bottom: 30px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .heading-9 {
+        width: 100%;
+        text-align: center;
     }
 }
