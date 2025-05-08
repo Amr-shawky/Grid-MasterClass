@@ -24,5 +24,37 @@
     .items7 p{
         width: 100%;
     }
+    .text-block-2 {
+        width: 80%;
+        max-width: 305px;
+    }
+    .div-block-13 {
+        margin-top: 60px;
+    }
+    .minicaps {
+        left: -165px;
+   
+    }
+    .minicaps2 {
+        margin-top: 30px;
+    }
+    .heading-8 {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .keyboard {
+        margin-left: 94px;
+    }
+    .heading-3 {
+        font-size: 35px;
+        line-height: 1.4em;
+    }
 }
 
+
+@media (max-width: 575.98px) {
+    .container-fluid .d-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+    }
+  }
