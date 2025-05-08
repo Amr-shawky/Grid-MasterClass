@@ -1,50 +1,79 @@
 @media (min-width: 1200px) {
     .px-xl-7 {
-      padding-left: 5rem !important; /* adjust as needed */
-      padding-right: 5rem !important; /* adjust as needed */
+        padding-left: 5rem !important;
+        /* adjust as needed */
+        padding-right: 5rem !important;
+        /* adjust as needed */
     }
-    .items7 p{
+
+    .items7 p {
         width: 50%;
     }
-  }
+}
+
+@media (max-width: 1200px) {
+    .minicaps {
+
+
+        top: -77px;
+    }
+
+}
+
 @media (max-width: 991px) {
     .container-fluid .d-grid {
         grid-template-columns: 1fr 1fr 1fr 25%;
         grid-template-rows: auto 1fr 1fr 1fr auto auto auto auto;
-        grid-template-areas: 
-        "items2 items2 items2 items2"
-        "items1 items1 items1 items1"
-        "items3 items3 items7 items7"
-        "items4 items4 items5 items5"
-        "items9 items9 items6 items6"
-        "items8 items8 items6 items6"
-        "items10 items10 items10 items10"
-        "items11 items11 items11 items11" ;
+        grid-template-areas:
+            "items2 items2 items2 items2"
+            "items1 items1 items1 items1"
+            "items3 items3 items7 items7"
+            "items4 items4 items5 items5"
+            "items9 items9 items6 items6"
+            "items8 items8 items6 items6"
+            "items10 items10 items10 items10"
+            "items11 items11 items11 items11";
     }
-    .items7 p{
+
+    .minicaps {
+        width: 102px;
+        position: absolute;
+        left: 39px;
+        top: -82px;
+
+    }
+
+    .items7 p {
         width: 100%;
     }
+
     .text-block-2 {
         width: 80%;
         max-width: 305px;
     }
+
     .div-block-13 {
         margin-top: 60px;
     }
+
     .minicaps {
-        left: -165px;
-   
+        top: -51px;
+        left: 30px;
     }
+
     .minicaps2 {
         margin-top: 30px;
     }
+
     .heading-8 {
         width: 100%;
         padding-bottom: 40px;
     }
+
     .keyboard {
         margin-left: 94px;
     }
+
     .heading-3 {
         font-size: 35px;
         line-height: 1.4em;
@@ -54,7 +83,19 @@
 
 @media (max-width: 575.98px) {
     .container-fluid .d-grid {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+        grid-template-areas:
+            "items2 items2 items2 items2"
+            "items1 items1 items1 items1"
+            "items3 items3 items3 items3"
+            "items4 items4 items4 items4"
+            "items5 items5 items5 items5"
+            "items6 items6 items6 items6"
+            "items7 items7 items7 items7"
+            "items8 items8 items8 items8"
+            "items9 items9 items9 items9"
+            "items10 items10 items10 items10"
+            "items11 items11 items11 items11";
     }
-  }
+}
