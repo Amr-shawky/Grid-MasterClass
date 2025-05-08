@@ -157,3 +157,22 @@
     margin-left: -50px;
     width: 320px !important;
 }
+.image-5 {
+    position: relative;
+    left: -10%;
+    width: 90%;
+}
+.minicaps {
+    position: relative;
+    left: -260px;
+    top: -30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #fa684f;
+    color: #fff;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
